@@ -1,0 +1,54 @@
+{
+  "name": "YOSI DATURA",
+  "tagline": "Fashion & Conceptual Photography",
+  "location": "Tel Aviv, Israel",
+  "years": "2015 — 2025",
+  "contact": {
+    "phone": "052-3776688",
+    "phoneIntl": "+972523776688",
+    "email": "yosidatura@gmail.com",
+    "instagram": "yosidatura",
+    "instagramUrl": "https://instagram.com/yosidatura"
+  },
+  "stats": {
+    "years": "10+",
+    "series": "8",
+    "visions": "∞"
+  },
+  "availableFor": [
+    "CAMPAIGNS",
+    "LOOKBOOKS",
+    "EDITORIAL",
+    "PORTRAITS",
+    "CONCEPTUAL",
+    "PRODUCTIONS"
+  ],
+  "navLinks": [
+    {
+      "id": "runway",
+      "label": "RUNWAY"
+    },
+    {
+      "id": "darkroom",
+      "label": "DARKROOM"
+    },
+    {
+      "id": "casting",
+      "label": "CASTING"
+    },
+    {
+      "id": "studio",
+      "label": "STUDIO"
+    }
+  ],
+  "marqueeItems": [
+    "AZURE VIBRANCE",
+    "SILENT REVOLUTION",
+    "WILD SPIRIT",
+    "ETERNITY",
+    "CRIMSON SHADOWS",
+    "GILDED TOUCH",
+    "URBAN NIGHTS",
+    "ETERNAL DESERT"
+  ]
+}
