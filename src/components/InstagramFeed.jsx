@@ -45,7 +45,7 @@ export default function InstagramFeed() {
               className="ig-tile aspect-square"
               aria-label={`${tile.label} — view on Instagram`}
             >
-              <img src={tile.img} alt={tile.label} loading="lazy" decoding="async" />
+              <img src={asset(tile.img)} alt={tile.label} loading="lazy" decoding="async" />
               <div className="ig-tile-overlay">
                 <div className="font-mono text-[10px] tracking-[0.2em] text-white/90">{tile.label}</div>
                 <div className="font-mono text-[10px] text-white/50 mt-1">VIEW ON INSTAGRAM ↗</div>
