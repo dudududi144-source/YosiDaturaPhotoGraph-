@@ -79,7 +79,7 @@ export default function Casting() {
             <article key={model.id} className="model-card bg-dark border border-white/5 p-6">
               <div className="aspect-[3/4] mb-6 overflow-hidden">
                 <img
-                  src={model.img}
+                  src={asset(model.img)}
                   alt={`Model — ${model.name}`}
                   onError={handleError(model.accent, model.name)}
                   loading="lazy"
