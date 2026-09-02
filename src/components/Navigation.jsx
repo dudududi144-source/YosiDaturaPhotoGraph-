@@ -75,7 +75,6 @@ export default function Navigation() {
             {link.label}
           </a>
         ))}
-        <div className="font-mono text-xs text-white/40 mt-8 tracking-[0.3em]">{siteData.years}</div>
       </div>
     </header>
   );
