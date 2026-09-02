@@ -12,6 +12,7 @@ import Portals from './components/Portals.jsx';
 import WingSection from './components/gallery/WingSection.jsx';
 import Casting from './components/Casting.jsx';
 import Artist from './components/Artist.jsx';
+import InstagramFeed from './components/InstagramFeed.jsx';
 import QuickConnectHub from './components/QuickConnectHub.jsx';
 import Footer from './components/Footer.jsx';
 import Lightbox from './components/gallery/Lightbox.jsx';
@@ -43,6 +44,7 @@ export default function App() {
         ))}
         <Casting />
         <Artist />
+        <InstagramFeed />
         <QuickConnectHub />
       </main>
       <Footer />
