@@ -49,3 +49,8 @@ Enable once: repo Settings -> Pages -> Source: GitHub Actions.
 Semantic landmarks, focus-visible outlines, keyboard lightbox (Esc / arrows),
 aria labels, prefers-reduced-motion support, custom cursor disabled on touch,
 rel=noopener noreferrer on external links.
+
+## Content provenance
+
+100% of the photography on this site is the work of Yosi Cohen Datura (@yosidatura).
+No stock imagery. No third-party content. Original assets only.
