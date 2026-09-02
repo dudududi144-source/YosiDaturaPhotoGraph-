@@ -15,7 +15,7 @@ export default function Hero() {
 
       <div className="relative z-10 px-6 md:px-12 lg:px-20 pt-32">
         <div className="hero-anim font-mono text-[10px] md:text-xs tracking-[0.35em] text-gold mb-6 md:mb-8">
-          PHOTOGRAPHY ARTIST // 2015—2025
+          FASHION & CONCEPTUAL PHOTOGRAPHY
         </div>
         <h1 className="hero-title font-display font-black text-white mb-6 md:mb-8">
           <span className="hero-anim block">YOSI</span>
