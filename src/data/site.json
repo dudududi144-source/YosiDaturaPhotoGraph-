@@ -15,35 +15,35 @@
   "instagram": {
     "handle": "yosidatura",
     "url": "https://instagram.com/yosidatura",
-    "followers": 643,
+    "followers": 681,
     "bio": "Fashion & Conceptual Photographer",
     "quote": "Every frame is a story waiting to be told.",
     "sub": "Capturing moments that resonate. Portfolio 2026.",
-    "avatar": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/14ee26f4c-5b0c-460f-9e89-d1df45a253f2.png",
+    "avatar": "y/artist-1.jpg",
     "tiles": [
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/100e13566-6197-4166-b10d-14c8bd0a767d.png",
+        "img": "y/gilded-1.jpg",
         "label": "GILDED TOUCH"
       },
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/19d721441-b14d-4bce-a3f2-4fa99ad9d3c2.png",
+        "img": "y/crimson-2.jpg",
         "label": "CRIMSON SHADOWS"
       },
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e0ace83e-933e-42e5-ad89-8d30c4818e4a.png",
+        "img": "y/eternity-1.jpg",
         "label": "ETERNITY"
       },
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a86443b0-b64e-414c-8f34-5e0b1c37ba81.png",
+        "img": "y/desert-1.jpg",
         "label": "ETERNAL DESERT"
       },
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1541b6629-9ae8-40c4-9f48-ebfb20ea1f8f.png",
+        "img": "y/silent-1.jpg",
         "label": "SILENT REVOLUTION"
       },
       {
-        "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/156de942e-cecb-4bfa-af60-242f4887f7df.png",
-        "label": "WILD SPIRIT"
+        "img": "y/azure-2.jpg",
+        "label": "AZURE VIBRANCE"
       }
     ]
   },
