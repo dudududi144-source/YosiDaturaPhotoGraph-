@@ -1,4 +1,4 @@
-import { renderLayout } from './layouts.js';
+import { renderLayout } from './layouts.jsx';
 
 export default function SeriesBlock({ series, isLast = false }) {
   const accentClass = series.accentClass || 'text-gold';
