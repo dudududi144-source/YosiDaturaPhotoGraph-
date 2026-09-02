@@ -1,32 +1,45 @@
 {
+  "hero": {
+    "cover": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1c5c06306-323a-400e-bb18-79bb74edc213.png"
+  },
+  "artist": {
+    "portrait": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/14ee26f4c-5b0c-460f-9e89-d1df45a253f2.png"
+  },
+  "studio": {
+    "base": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/14ee26f4c-5b0c-460f-9e89-d1df45a253f2.png"
+  },
   "portals": [
     {
       "id": "runway",
       "num": "01",
       "title": "RUNWAY",
       "desc": "Fashion Portfolio — The Spatial Collection",
-      "accent": "#D4AF37"
+      "accent": "#D4AF37",
+      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/100e13566-6197-4166-b10d-14c8bd0a767d.png"
     },
     {
       "id": "darkroom",
       "num": "02",
       "title": "DARKROOM",
       "desc": "Conceptual & Behind The Scenes",
-      "accent": "#DC143C"
+      "accent": "#DC143C",
+      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a0237deb-131b-4a58-a12d-e83c13bb7cb9.png"
     },
     {
       "id": "casting",
       "num": "03",
       "title": "CASTING",
       "desc": "Model Database & Talent Directory",
-      "accent": "#00FFFF"
+      "accent": "#00FFFF",
+      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1d690f0d9-31b2-487e-9472-0fb7e09a7c78.png"
     },
     {
       "id": "studio",
       "num": "04",
       "title": "STUDIO",
-      "desc": "QuickConnect Hub & Project Brief Builder",
-      "accent": "#D4AF37"
+      "desc": "QuickConnect Hub & Project Brief",
+      "accent": "#D4AF37",
+      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/14ee26f4c-5b0c-460f-9e89-d1df45a253f2.png"
     }
   ],
   "wings": [
@@ -39,7 +52,7 @@
         "PORTFOLIO"
       ],
       "headingAccent": "text-gold",
-      "intro": "A curated collection of fashion editorials. Each series is a world — a mood, a color palette, a narrative. Scroll through the spatial collection.",
+      "intro": "A curated collection of fashion editorials. Each series is a world — a mood, a color palette, a narrative.",
       "bg": ""
     },
     {
@@ -73,14 +86,14 @@
           "id": "FR-011",
           "alt": "Coastal Energy",
           "caption": "Azure Vibrance — Coastal Energy",
-          "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1f5bacaee-d7e5-448d-b841-ba6e74743194.png",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-012",
           "alt": "Sunlit Reverie",
           "caption": "Azure Vibrance — Sunlit Reverie",
-          "img": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1f51f7564-db53-4536-ad7d-aa94f30a5567.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -88,7 +101,7 @@
           "id": "FR-013",
           "alt": "Ocean Breeze",
           "caption": "Azure Vibrance — Ocean Breeze",
-          "img": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1b5ac1839-9b26-4a12-86fc-eebe7e2254ef.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         }
@@ -109,21 +122,21 @@
           "id": "FR-021",
           "alt": "Windswept",
           "caption": "Eternal Desert — Windswept",
-          "img": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1200&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a86443b0-b64e-414c-8f34-5e0b1c37ba81.png",
           "aspect": "aspect-[3/4] md:aspect-auto"
         },
         {
           "id": "FR-022",
           "alt": "Golden Hour",
           "caption": "Eternal Desert — Golden Hour",
-          "img": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a55a3187-eced-4b0f-af52-43140d77aab3.png",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-023",
           "alt": "Desert Queen",
           "caption": "Eternal Desert — Desert Queen",
-          "img": "https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1c4e20ab9-5a4d-4702-8e12-488a6e271725.png",
           "aspect": "aspect-[4/3]"
         }
       ]
@@ -143,14 +156,14 @@
           "id": "FR-031",
           "alt": "Golden Sculpture",
           "caption": "Gilded Touch — Golden Sculpture",
-          "img": "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F451c8c0b-5700-40df-8aa8-bec1c8b240f8/watermark:F/width:532?csig=AAAAAAAAAAAAAAAAAAAAAAAlTqurXnDeFh48dQPpJ7e0eqGP6p9FmnBUKJj-YSgI&exp=1788295890&osig=AAAAAAAAAAAAAAAAAAAAAJh1TdObQShapAj1ImqMIM922gZrqwUR89T14U30iE6L&signer=media-rpc&x-canva-quality=screen",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/100e13566-6197-4166-b10d-14c8bd0a767d.png",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-032",
           "alt": "The Artist",
           "caption": "Gilded Touch — The Artist",
-          "img": "https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1717020ef-13da-4bc3-a886-191d348b6086.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-20"
         }
@@ -172,7 +185,7 @@
           "id": "FR-041",
           "alt": "Eternal Grace",
           "caption": "Eternity — Eternal Grace",
-          "img": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1400&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e0ace83e-933e-42e5-ad89-8d30c4818e4a.png",
           "aspect": "aspect-[16/9] md:aspect-[21/9]"
         }
       ]
@@ -192,14 +205,14 @@
           "id": "FR-051",
           "alt": "The Rebel",
           "caption": "Silent Revolution — The Rebel",
-          "img": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1541b6629-9ae8-40c4-9f48-ebfb20ea1f8f.png",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-052",
           "alt": "Defiance",
           "caption": "Silent Revolution — Defiance",
-          "img": "https://images.unsplash.com/photo-1494972308805-463bc619d34e?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a0237deb-131b-4a58-a12d-e83c13bb7cb9.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -207,7 +220,7 @@
           "id": "FR-053",
           "alt": "Resilience",
           "caption": "Silent Revolution — Resilience",
-          "img": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/14eba3346-77fe-4328-a70b-e0c58ca12eaf.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         }
@@ -228,21 +241,21 @@
           "id": "FR-061",
           "alt": "Raw Intensity",
           "caption": "Crimson Shadows — Raw Intensity",
-          "img": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e23d2e86-fce5-46ca-8d06-517c3c49413a.png",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-063",
           "alt": "Power",
           "caption": "Crimson Shadows — Power",
-          "img": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/12b3830c9-65af-42bb-adc8-872edf41db94.png",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-062",
           "alt": "Cinematic Drama",
           "caption": "Crimson Shadows — Cinematic Drama",
-          "img": "https://images.unsplash.com/photo-1531747056595-07f6cbbe10ad?q=80&w=1200&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/19d721441-b14d-4bce-a3f2-4fa99ad9d3c2.png",
           "aspect": "aspect-[3/4] md:aspect-auto"
         }
       ]
@@ -262,7 +275,7 @@
           "id": "FR-071",
           "alt": "Concrete",
           "caption": "Urban Nights — Concrete",
-          "img": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/149cbe56d-380d-469b-8fce-eb1c1a9261e0.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         },
@@ -270,7 +283,7 @@
           "id": "FR-072",
           "alt": "Isolation",
           "caption": "Urban Nights — Isolation",
-          "img": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1f91a74a7-bf52-492d-af16-cae5a6e17ce4.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -278,7 +291,7 @@
           "id": "FR-073",
           "alt": "Raw Glow",
           "caption": "Urban Nights — Raw Glow",
-          "img": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1a1a34d85-6754-4796-ae92-53e2247ff2b4.png",
           "aspect": "aspect-[3/4]"
         }
       ]
@@ -291,21 +304,21 @@
       "titleAccent": "SPIRIT",
       "accent": "#4CAF50",
       "accentClass": "text-leaf",
-      "desc": "A tribute to the raw and the organic. This series explores the deep connection between fashion and nature.",
+      "desc": "A tribute to the raw and the organic. This series explores the deep connection between fashion and nature, captured through earthy textures, ancient olive groves, and an untamed spirit.",
       "layout": "diptych-staggered",
       "frames": [
         {
           "id": "FR-081",
           "alt": "Olive Grove",
           "caption": "Wild Spirit — Olive Grove",
-          "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/156de942e-cecb-4bfa-af60-242f4887f7df.png",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-082",
           "alt": "Untamed",
           "caption": "Wild Spirit — Untamed",
-          "img": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop",
+          "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1b146c422-9562-40f2-a902-0d83d22e5be5.png",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-20"
         }
@@ -318,13 +331,7 @@
       "MASTER"
     ],
     "desc": "Drag the handle. The same frame, before and after the color grade — the darkroom's final signature.",
-    "before": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=1400&auto=format&fit=crop",
-    "after": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1400&auto=format&fit=crop"
-  },
-  "artist": {
-    "portrait": "https://media.canva.com/v2/image-resize/format:JPG/height:532/quality:92/uri:ifs%3A%2F%2FM%2Feef3b100-47da-479b-ad52-58c0075f3ebf/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAIxFNUV8L5N4-y5gKYCQyFapLlZFa8e38ktR5MPVrMeS&exp=1788294807&osig=AAAAAAAAAAAAAAAAAAAAALp36DTBrx0diLWC_-xgArvTCWzfpG-epjcdVz3ejz2M&signer=media-rpc&x-canva-quality=screen"
-  },
-  "studio": {
-    "base": "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F6100277d-9529-4825-92f3-abebb7eb4d5d/watermark:F/width:532?csig=AAAAAAAAAAAAAAAAAAAAAOOx5XlZvMAUsaAUmof2Jwspji7K0mnH5WFctvsmI7cz&exp=1788295786&osig=AAAAAAAAAAAAAAAAAAAAAN7zEahtkV1csjqHMr2jmcF2W1cYseNLpibGsvT3QO-F&signer=media-rpc&x-canva-quality=screen"
+    "before": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e126ca73-08ca-46bf-b997-b4cb3b8f3dc2.png",
+    "after": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1d939aac6-c197-4f3d-97fa-779956598fac.png"
   }
 }
