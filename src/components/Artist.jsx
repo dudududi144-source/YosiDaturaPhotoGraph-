@@ -1,6 +1,7 @@
 import siteData from '../data/site.json';
 import galleryData from '../data/gallery.json';
 import { generatePlaceholder } from '../utils/imageFallback.js';
+import { asset } from '../utils/assets.js';
 
 export default function Artist() {
   const { stats } = siteData;
