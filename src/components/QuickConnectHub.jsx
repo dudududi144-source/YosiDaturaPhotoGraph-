@@ -29,7 +29,7 @@ export default function QuickConnectHub() {
       {studioBg && (
         <div className="absolute inset-0 z-0" aria-hidden="true">
           <img
-            src={studioBg}
+            src={asset(studioBg)}
             alt=""
             loading="lazy"
             decoding="async"
