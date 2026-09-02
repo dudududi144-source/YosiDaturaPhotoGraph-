@@ -24,7 +24,7 @@
       ],
       "featured": "Azure Vibrance",
       "accent": "#00BFFF",
-      "img": "y/azure-2.jpg"
+      "img": "y/azure-1.jpg"
     },
     {
       "id": "MODEL_002",
@@ -43,7 +43,7 @@
       ],
       "featured": "Crimson Shadows",
       "accent": "#DC143C",
-      "img": "y/crimson-2.jpg"
+      "img": "y/crimson-1.jpg"
     },
     {
       "id": "MODEL_003",
@@ -81,7 +81,7 @@
       ],
       "featured": "Gilded Touch",
       "accent": "#D4AF37",
-      "img": "y/gilded-2.jpg"
+      "img": "y/gilded-3.jpg"
     },
     {
       "id": "MODEL_005",
@@ -100,7 +100,7 @@
       ],
       "featured": "Urban Nights",
       "accent": "#888888",
-      "img": "y/urban-2.jpg"
+      "img": "y/urban-3.jpg"
     },
     {
       "id": "MODEL_006",
