@@ -12,9 +12,10 @@ import Portals from './components/Portals.jsx';
 import WingSection from './components/gallery/WingSection.jsx';
 import Casting from './components/Casting.jsx';
 import Artist from './components/Artist.jsx';
-import Studio from './components/Studio.jsx';
+import QuickConnectHub from './components/QuickConnectHub.jsx';
 import Footer from './components/Footer.jsx';
 import Lightbox from './components/gallery/Lightbox.jsx';
+import Fab from './components/Fab.jsx';
 import { initReveals, initSmoothScroll, initParallax } from './utils/animations.js';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -42,10 +43,11 @@ export default function App() {
         ))}
         <Casting />
         <Artist />
-        <Studio />
+        <QuickConnectHub />
       </main>
       <Footer />
       <Lightbox />
+      <Fab />
     </LightboxProvider>
   );
 }
