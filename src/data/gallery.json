@@ -25,7 +25,7 @@
       "id": "studio",
       "num": "04",
       "title": "STUDIO",
-      "desc": "Contact & Project Brief Builder",
+      "desc": "QuickConnect Hub & Project Brief Builder",
       "accent": "#D4AF37"
     }
   ],
@@ -73,14 +73,14 @@
           "id": "FR-011",
           "alt": "Coastal Energy",
           "caption": "Azure Vibrance — Coastal Energy",
-          "img": "/assets/azure-1.jpg",
+          "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-012",
           "alt": "Sunlit Reverie",
           "caption": "Azure Vibrance — Sunlit Reverie",
-          "img": "/assets/azure-2.jpg",
+          "img": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -88,7 +88,7 @@
           "id": "FR-013",
           "alt": "Ocean Breeze",
           "caption": "Azure Vibrance — Ocean Breeze",
-          "img": "/assets/azure-3.jpg",
+          "img": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         }
@@ -109,21 +109,21 @@
           "id": "FR-021",
           "alt": "Windswept",
           "caption": "Eternal Desert — Windswept",
-          "img": "/assets/desert-1.jpg",
+          "img": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1200&auto=format&fit=crop",
           "aspect": "aspect-[3/4] md:aspect-auto"
         },
         {
           "id": "FR-022",
           "alt": "Golden Hour",
           "caption": "Eternal Desert — Golden Hour",
-          "img": "/assets/desert-2.jpg",
+          "img": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-023",
           "alt": "Desert Queen",
           "caption": "Eternal Desert — Desert Queen",
-          "img": "/assets/desert-3.jpg",
+          "img": "https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[4/3]"
         }
       ]
@@ -143,14 +143,14 @@
           "id": "FR-031",
           "alt": "Golden Sculpture",
           "caption": "Gilded Touch — Golden Sculpture",
-          "img": "/assets/gilded-1.jpg",
+          "img": "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F451c8c0b-5700-40df-8aa8-bec1c8b240f8/watermark:F/width:532?csig=AAAAAAAAAAAAAAAAAAAAAAAlTqurXnDeFh48dQPpJ7e0eqGP6p9FmnBUKJj-YSgI&exp=1788295890&osig=AAAAAAAAAAAAAAAAAAAAAJh1TdObQShapAj1ImqMIM922gZrqwUR89T14U30iE6L&signer=media-rpc&x-canva-quality=screen",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-032",
           "alt": "The Artist",
           "caption": "Gilded Touch — The Artist",
-          "img": "/assets/gilded-2.jpg",
+          "img": "https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-20"
         }
@@ -172,7 +172,7 @@
           "id": "FR-041",
           "alt": "Eternal Grace",
           "caption": "Eternity — Eternal Grace",
-          "img": "/assets/eternity-1.jpg",
+          "img": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1400&auto=format&fit=crop",
           "aspect": "aspect-[16/9] md:aspect-[21/9]"
         }
       ]
@@ -192,14 +192,14 @@
           "id": "FR-051",
           "alt": "The Rebel",
           "caption": "Silent Revolution — The Rebel",
-          "img": "/assets/silent-1.jpg",
+          "img": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-052",
           "alt": "Defiance",
           "caption": "Silent Revolution — Defiance",
-          "img": "/assets/silent-2.jpg",
+          "img": "https://images.unsplash.com/photo-1494972308805-463bc619d34e?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -207,7 +207,7 @@
           "id": "FR-053",
           "alt": "Resilience",
           "caption": "Silent Revolution — Resilience",
-          "img": "/assets/silent-3.jpg",
+          "img": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         }
@@ -228,21 +228,21 @@
           "id": "FR-061",
           "alt": "Raw Intensity",
           "caption": "Crimson Shadows — Raw Intensity",
-          "img": "/assets/crimson-1.jpg",
+          "img": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-063",
           "alt": "Power",
           "caption": "Crimson Shadows — Power",
-          "img": "/assets/crimson-2.jpg",
+          "img": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[4/3]"
         },
         {
           "id": "FR-062",
           "alt": "Cinematic Drama",
           "caption": "Crimson Shadows — Cinematic Drama",
-          "img": "/assets/crimson-3.jpg",
+          "img": "https://images.unsplash.com/photo-1531747056595-07f6cbbe10ad?q=80&w=1200&auto=format&fit=crop",
           "aspect": "aspect-[3/4] md:aspect-auto"
         }
       ]
@@ -262,7 +262,7 @@
           "id": "FR-071",
           "alt": "Concrete",
           "caption": "Urban Nights — Concrete",
-          "img": "/assets/urban-1.jpg",
+          "img": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-32"
         },
@@ -270,7 +270,7 @@
           "id": "FR-072",
           "alt": "Isolation",
           "caption": "Urban Nights — Isolation",
-          "img": "/assets/urban-2.jpg",
+          "img": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-16"
         },
@@ -278,7 +278,7 @@
           "id": "FR-073",
           "alt": "Raw Glow",
           "caption": "Urban Nights — Raw Glow",
-          "img": "/assets/urban-3.jpg",
+          "img": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]"
         }
       ]
@@ -298,14 +298,14 @@
           "id": "FR-081",
           "alt": "Olive Grove",
           "caption": "Wild Spirit — Olive Grove",
-          "img": "/assets/wild-1.jpg",
+          "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]"
         },
         {
           "id": "FR-082",
           "alt": "Untamed",
           "caption": "Wild Spirit — Untamed",
-          "img": "/assets/wild-2.jpg",
+          "img": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop",
           "aspect": "aspect-[3/4]",
           "offset": "md:mt-20"
         }
@@ -318,7 +318,13 @@
       "MASTER"
     ],
     "desc": "Drag the handle. The same frame, before and after the color grade — the darkroom's final signature.",
-    "before": "/assets/grade-before.jpg",
-    "after": "/assets/grade-after.jpg"
+    "before": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=1400&auto=format&fit=crop",
+    "after": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1400&auto=format&fit=crop"
+  },
+  "artist": {
+    "portrait": "https://media.canva.com/v2/image-resize/format:JPG/height:532/quality:92/uri:ifs%3A%2F%2FM%2Feef3b100-47da-479b-ad52-58c0075f3ebf/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAIxFNUV8L5N4-y5gKYCQyFapLlZFa8e38ktR5MPVrMeS&exp=1788294807&osig=AAAAAAAAAAAAAAAAAAAAALp36DTBrx0diLWC_-xgArvTCWzfpG-epjcdVz3ejz2M&signer=media-rpc&x-canva-quality=screen"
+  },
+  "studio": {
+    "base": "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F6100277d-9529-4825-92f3-abebb7eb4d5d/watermark:F/width:532?csig=AAAAAAAAAAAAAAAAAAAAAOOx5XlZvMAUsaAUmof2Jwspji7K0mnH5WFctvsmI7cz&exp=1788295786&osig=AAAAAAAAAAAAAAAAAAAAAN7zEahtkV1csjqHMr2jmcF2W1cYseNLpibGsvT3QO-F&signer=media-rpc&x-canva-quality=screen"
   }
 }
