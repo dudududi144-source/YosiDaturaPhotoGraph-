@@ -1,7 +1,7 @@
 import siteData from '../data/site.json';
 
 export default function Footer() {
-  const { contact, navLinks, years } = siteData;
+  const { contact, navLinks } = siteData;
 
   return (
     <footer className="py-16 md:py-20 px-6 md:px-12 lg:px-20 border-t border-white/5 bg-darker">
@@ -13,7 +13,6 @@ export default function Footer() {
           <div className="font-mono text-xs text-white/40 mt-4">
             Visual Architect — Fashion &amp; Conceptual Photography
           </div>
-          <div className="font-mono text-xs text-white/30 mt-2">{years}</div>
         </div>
         <nav aria-label="Footer navigation">
           <div className="font-mono text-[10px] tracking-[0.3em] text-gold mb-4">NAVIGATE</div>
@@ -41,7 +40,7 @@ export default function Footer() {
         </nav>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-white/5">
-        <div className="font-mono text-[10px] text-white/30">© 2025 YOSI DATURA. ALL RIGHTS RESERVED.</div>
+        <div className="font-mono text-[10px] text-white/30">© 2026 YOSI DATURA. ALL RIGHTS RESERVED.</div>
         <div className="font-mono text-[10px] text-white/30">PRISM ARCHITECTURE v3.0</div>
       </div>
     </footer>
