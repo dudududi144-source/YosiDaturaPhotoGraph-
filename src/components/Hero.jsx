@@ -1,5 +1,6 @@
 import siteData from '../data/site.json';
 import galleryData from '../data/gallery.json';
+import { asset } from '../utils/assets.js';
 
 export default function Hero() {
   const cover = galleryData.hero?.cover;
@@ -7,9 +8,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex flex-col justify-center overflow-hidden">
       <div className="absolute inset-0 z-0" aria-hidden="true">
-        {cover && (
-          <img src={cover} alt="" className="hero-cover" loading="eager" decoding="async" />
-        )}
+        {cover && <img src={asset(cover)} alt="" className="hero-cover" loading="eager" decoding="async" />}
         <div className="absolute inset-0 bg-gradient-to-b from-darker/80 via-darker/30 to-darker"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-darker/70 via-transparent to-darker/70"></div>
       </div>
@@ -23,7 +22,7 @@ export default function Hero() {
           <span className="hero-anim block text-stroke glitch" data-text="DATURA">DATURA</span>
         </h1>
         <p className="hero-anim font-mono text-sm md:text-base text-white/70 max-w-xl leading-relaxed">
-          <span className="text-white/90 font-display italic text-base md:text-lg">"Every frame is a story waiting to be told."</span>
+          <span className="text-white/90 font-display italic text-base md:text-lg">"{siteData.quote}"</span>
           <br />
           Fashion &amp; Conceptual Photography — exploring the thin line between the aesthetic
           and the provocative. The harmony of light, form, and raw emotion.
