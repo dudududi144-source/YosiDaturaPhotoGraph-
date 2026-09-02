@@ -30,10 +30,6 @@
         "label": "CRIMSON SHADOWS"
       },
       {
-        "img": "y/eternity-1.jpg",
-        "label": "ETERNITY"
-      },
-      {
         "img": "y/desert-1.jpg",
         "label": "ETERNAL DESERT"
       },
@@ -44,6 +40,10 @@
       {
         "img": "y/azure-2.jpg",
         "label": "AZURE VIBRANCE"
+      },
+      {
+        "img": "y/urban-1.jpg",
+        "label": "URBAN NIGHTS"
       }
     ]
   },
