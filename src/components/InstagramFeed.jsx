@@ -14,7 +14,7 @@ export default function InstagramFeed() {
         {/* Profile header — IG-native language, cinematic execution */}
         <div className="flex flex-col md:flex-row md:items-center gap-8 mb-12 md:mb-16 reveal">
           <div className="ig-ring w-24 h-24 md:w-28 md:h-28 shrink-0">
-            <img src={ig.avatar} alt={`${ig.handle} profile`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+            <img src={asset(ig.avatar)} alt={`${ig.handle} profile`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
           </div>
           <div className="flex-1">
             <div className="section-number mb-3" style={{ color: '#dc2743' }}>06 / THE FEED</div>
