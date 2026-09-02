@@ -23,7 +23,9 @@ export default function Hero() {
           <span className="hero-anim block text-stroke glitch" data-text="DATURA">DATURA</span>
         </h1>
         <p className="hero-anim font-mono text-sm md:text-base text-white/70 max-w-xl leading-relaxed">
-          Fashion &amp; Conceptual Photography. Exploring the thin line between the aesthetic
+          <span className="text-white/90 font-display italic text-base md:text-lg">"Every frame is a story waiting to be told."</span>
+          <br />
+          Fashion &amp; Conceptual Photography — exploring the thin line between the aesthetic
           and the provocative. The harmony of light, form, and raw emotion.
         </p>
       </div>
