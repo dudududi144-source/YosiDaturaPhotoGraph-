@@ -14,10 +14,10 @@ export default function Portals() {
           <a key={portal.id} href={`#${portal.id}`}
             className="portal group block aspect-[4/3] bg-dark"
             aria-label={`Enter ${portal.title} — ${portal.desc}`}>
-            <div className="portal-img absolute inset-0 opacity-40 group-hover:opacity-70"
-              style={{
-                background: `radial-gradient(ellipse at 30% 20%, ${portal.accent}22 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, ${portal.accent}18 0%, transparent 55%), #0a0a0a`,
-              }}></div>
+            {portal.img && (
+              <img src={portal.img} alt="" loading="lazy" decoding="async"
+                className="portal-img absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-80" />
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 z-[2]">
               <div className="font-mono text-[10px] tracking-[0.3em] text-gold mb-2">{portal.num}</div>
