@@ -1,0 +1,125 @@
+{
+  "filters": [
+    "ALL",
+    "FASHION",
+    "CONCEPTUAL",
+    "NATURAL",
+    "EDITORIAL"
+  ],
+  "models": [
+    {
+      "id": "MODEL_001",
+      "name": "Azure Series",
+      "category": [
+        "fashion",
+        "natural"
+      ],
+      "height": "175cm",
+      "hair": "Dark Brown / Wet",
+      "eyes": "Brown",
+      "tags": [
+        "SWIMWEAR",
+        "BEACH",
+        "NATURAL"
+      ],
+      "featured": "Azure Vibrance",
+      "accent": "#00BFFF",
+      "img": "/assets/model-azure.jpg"
+    },
+    {
+      "id": "MODEL_002",
+      "name": "Crimson Series",
+      "category": [
+        "editorial",
+        "conceptual"
+      ],
+      "height": "178cm",
+      "hair": "Black / Sleek",
+      "eyes": "Dark Brown",
+      "tags": [
+        "EDITORIAL",
+        "DRAMATIC",
+        "RED"
+      ],
+      "featured": "Crimson Shadows",
+      "accent": "#DC143C",
+      "img": "/assets/model-crimson.jpg"
+    },
+    {
+      "id": "MODEL_003",
+      "name": "Desert Series",
+      "category": [
+        "fashion",
+        "editorial"
+      ],
+      "height": "180cm",
+      "hair": "Brown / Windswept",
+      "eyes": "Amber",
+      "tags": [
+        "DESERT",
+        "ORANGE",
+        "WINDSWEPT"
+      ],
+      "featured": "Eternal Desert",
+      "accent": "#E8751A",
+      "img": "/assets/model-desert.jpg"
+    },
+    {
+      "id": "MODEL_004",
+      "name": "Gilded Series",
+      "category": [
+        "editorial",
+        "conceptual"
+      ],
+      "height": "176cm",
+      "hair": "Black / Slicked",
+      "eyes": "Brown",
+      "tags": [
+        "GOLD",
+        "METALLIC",
+        "SCULPTURAL"
+      ],
+      "featured": "Gilded Touch",
+      "accent": "#D4AF37",
+      "img": "/assets/model-gilded.jpg"
+    },
+    {
+      "id": "MODEL_005",
+      "name": "Wild Series",
+      "category": [
+        "natural",
+        "conceptual"
+      ],
+      "height": "174cm",
+      "hair": "Blonde / Dreadlocks",
+      "eyes": "Blue",
+      "tags": [
+        "NATURE",
+        "OLIVE",
+        "ORGANIC"
+      ],
+      "featured": "Wild Spirit",
+      "accent": "#4CAF50",
+      "img": "/assets/model-wild.jpg"
+    },
+    {
+      "id": "MODEL_006",
+      "name": "Eternity Series",
+      "category": [
+        "fashion",
+        "editorial"
+      ],
+      "height": "177cm",
+      "hair": "Auburn",
+      "eyes": "Green",
+      "tags": [
+        "BRIDAL",
+        "WHITE",
+        "ETHEREAL"
+      ],
+      "featured": "Eternity",
+      "accent": "#D4AF37",
+      "img": "/assets/model-eternity.jpg"
+    }
+  ]
+}
