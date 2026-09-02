@@ -15,7 +15,7 @@
         "natural"
       ],
       "height": "175cm",
-      "hair": "Dark Brown / Wet",
+      "hair": "Dark Brown",
       "eyes": "Brown",
       "tags": [
         "SWIMWEAR",
@@ -24,7 +24,7 @@
       ],
       "featured": "Azure Vibrance",
       "accent": "#00BFFF",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/106d91af0-956b-47fa-8152-5f7c40ce03d5.png"
+      "img": "y/azure-2.jpg"
     },
     {
       "id": "MODEL_002",
@@ -43,7 +43,7 @@
       ],
       "featured": "Crimson Shadows",
       "accent": "#DC143C",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e0139266-ceef-4bf2-9e33-21a148c6b958.png"
+      "img": "y/crimson-2.jpg"
     },
     {
       "id": "MODEL_003",
@@ -53,7 +53,7 @@
         "editorial"
       ],
       "height": "180cm",
-      "hair": "Auburn / Windswept",
+      "hair": "Auburn / Updo",
       "eyes": "Amber",
       "tags": [
         "DESERT",
@@ -62,7 +62,7 @@
       ],
       "featured": "Eternal Desert",
       "accent": "#E8751A",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1323c5bc7-1179-4bf0-82b0-a1de913762b0.png"
+      "img": "y/desert-3.jpg"
     },
     {
       "id": "MODEL_004",
@@ -81,26 +81,26 @@
       ],
       "featured": "Gilded Touch",
       "accent": "#D4AF37",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1d690f0d9-31b2-487e-9472-0fb7e09a7c78.png"
+      "img": "y/gilded-2.jpg"
     },
     {
       "id": "MODEL_005",
-      "name": "Wild Series",
+      "name": "Urban Series",
       "category": [
-        "natural",
+        "editorial",
         "conceptual"
       ],
-      "height": "174cm",
-      "hair": "Blonde / Dreadlocks",
-      "eyes": "Blue",
+      "height": "182cm",
+      "hair": "Dark / Pulled",
+      "eyes": "Brown",
       "tags": [
-        "NATURE",
-        "OLIVE",
-        "ORGANIC"
+        "STREET",
+        "MONO",
+        "NIGHT"
       ],
-      "featured": "Wild Spirit",
-      "accent": "#4CAF50",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1e22c7060-dd5c-4a62-97f9-f7e91840d8c5.png"
+      "featured": "Urban Nights",
+      "accent": "#888888",
+      "img": "y/urban-2.jpg"
     },
     {
       "id": "MODEL_006",
@@ -110,7 +110,7 @@
         "editorial"
       ],
       "height": "177cm",
-      "hair": "Auburn",
+      "hair": "Auburn / Waves",
       "eyes": "Green",
       "tags": [
         "BRIDAL",
@@ -119,7 +119,7 @@
       ],
       "featured": "Eternity",
       "accent": "#D4AF37",
-      "img": "https://image.qwenlm.ai/public_source/ef785b6a-898a-45b5-9482-6c2cfa483fb4/1f112164b-42a0-4489-aacb-cd1143dcdda7.png"
+      "img": "y/eternity-1.jpg"
     }
   ]
 }
