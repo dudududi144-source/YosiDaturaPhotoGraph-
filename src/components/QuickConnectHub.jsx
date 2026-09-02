@@ -40,7 +40,7 @@ export default function QuickConnectHub() {
 
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="mb-16 md:mb-24">
-          <div className="section-number reveal">06 / QUICKCONNECT HUB</div>
+          <div className="section-number reveal">07 / QUICKCONNECT HUB</div>
           <h2 className="font-display text-4xl md:text-6xl lg:text-8xl font-black mt-4 md:mt-6 reveal">
             LET'S CREATE<br />THE NEXT <span className="text-gold">STORY</span>
           </h2>
