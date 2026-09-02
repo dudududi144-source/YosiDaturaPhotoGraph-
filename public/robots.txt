@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dudududi144-source.github.io/YosiDaturaPhotoGraph-/sitemap.xml
