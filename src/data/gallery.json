@@ -15,7 +15,7 @@
       "title": "RUNWAY",
       "desc": "Fashion Portfolio — The Spatial Collection",
       "accent": "#D4AF37",
-      "img": "y/desert-1.jpg"
+      "img": "y/desert-2.jpg"
     },
     {
       "id": "darkroom",
@@ -23,7 +23,7 @@
       "title": "DARKROOM",
       "desc": "Conceptual & Behind The Scenes",
       "accent": "#DC143C",
-      "img": "y/silent-1.jpg"
+      "img": "y/silent-2.jpg"
     },
     {
       "id": "casting",
@@ -31,7 +31,7 @@
       "title": "CASTING",
       "desc": "Model Database & Talent Directory",
       "accent": "#00FFFF",
-      "img": "y/azure-2.jpg"
+      "img": "y/azure-3.jpg"
     },
     {
       "id": "studio",
@@ -79,7 +79,7 @@
       "titleAccent": "VIBRANCE",
       "accent": "#00BFFF",
       "accentClass": "text-azure",
-      "desc": "A sun-drenched tribute to summer and high-energy swimwear. Utilizing natural coastal light to enhance bold color palettes and the fluid, carefree motion of the elements.",
+      "desc": "A sun-drenched tribute to summer and high-energy swimwear. Utilizing natural coastal light to enhance bold color palettes and the fluid, carefree motion of the elements. · Full model & team credits on Instagram @yosidatura",
       "layout": "triptych-staggered",
       "frames": [
         {
@@ -115,7 +115,7 @@
       "titleAccent": "DESERT",
       "accent": "#E8751A",
       "accentClass": "text-ember",
-      "desc": "A timeless journey across sun-drenched dunes. Bold colors capture the raw, windswept beauty of the human spirit.",
+      "desc": "A timeless journey across sun-drenched dunes. Bold colors capture the raw, windswept beauty of the human spirit. · Full model & team credits on Instagram @yosidatura",
       "layout": "hero-side-duo",
       "frames": [
         {
@@ -149,7 +149,7 @@
       "titleAccent": "TOUCH",
       "accent": "#D4AF37",
       "accentClass": "text-gold",
-      "desc": "An exploration of texture and light, merging the human form with metallic elements to create a timeless, sculptural aesthetic.",
+      "desc": "An exploration of texture and light, merging the human form with metallic elements to create a timeless, sculptural aesthetic. · Full model & team credits on Instagram @yosidatura",
       "layout": "triptych-staggered",
       "frames": [
         {
@@ -186,7 +186,7 @@
       "titleTail": "TY",
       "accent": "#D4AF37",
       "accentClass": "text-gold",
-      "desc": "The final chapter, a breath of timeless beauty. Amidst the whispering sands and the endless horizon — an embodiment of grace, purity, and enduring strength.",
+      "desc": "The final chapter, a breath of timeless beauty. Amidst the whispering sands and the endless horizon — an embodiment of grace, purity, and enduring strength. · Full model & team credits on Instagram @yosidatura",
       "layout": "full-bleed",
       "frames": [
         {
@@ -206,7 +206,7 @@
       "titleAccent": "REVOLUTION",
       "accent": "#DC143C",
       "accentClass": "text-crimson",
-      "desc": "A glimpse into the future unknown. This black and white series explores themes of rebellion, defiance, and resilience in a desolate landscape.",
+      "desc": "A glimpse into the future unknown. This black and white series explores themes of rebellion, defiance, and resilience in a desolate landscape. · Full model & team credits on Instagram @yosidatura",
       "layout": "triptych-staggered",
       "frames": [
         {
@@ -242,7 +242,7 @@
       "titleAccent": "SHADOWS",
       "accent": "#DC143C",
       "accentClass": "text-crimson",
-      "desc": "Capturing raw intensity through high-contrast lighting and bold color palettes. A visual narrative of power and cinematic drama.",
+      "desc": "Capturing raw intensity through high-contrast lighting and bold color palettes. A visual narrative of power and cinematic drama. · Full model & team credits on Instagram @yosidatura",
       "layout": "diptych-staggered",
       "frames": [
         {
@@ -270,7 +270,7 @@
       "titleAccent": "NIGHTS",
       "accent": "#888888",
       "accentClass": "text-white/60",
-      "desc": "A monochromatic journey through concrete landscapes, exploring isolation and raw glow under the city lights.",
+      "desc": "A monochromatic journey through concrete landscapes, exploring isolation and raw glow under the city lights. · Full model & team credits on Instagram @yosidatura",
       "layout": "triptych-staggered-inv",
       "frames": [
         {
@@ -306,7 +306,7 @@
       "titleAccent": "SPIRIT",
       "accent": "#4CAF50",
       "accentClass": "text-leaf",
-      "desc": "A tribute to the raw and the organic — earthy textures, ancient olive groves, and an untamed spirit that breathes life into every frame.",
+      "desc": "A tribute to the raw and the organic — earthy textures, ancient olive groves, and an untamed spirit that breathes life into every frame. · Full model & team credits on Instagram @yosidatura",
       "layout": "diptych-staggered",
       "frames": [
         {
@@ -333,6 +333,6 @@
       "MASTER"
     ],
     "desc": "Drag the handle. The same frame, before and after the color grade — the darkroom's final signature.",
-    "img": "y/crimson-2.jpg"
+    "img": "y/gilded-2.jpg"
   }
 }
