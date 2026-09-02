@@ -21,7 +21,7 @@ export default function Artist() {
         <figure className="reveal">
           <div className="aspect-[3/4] overflow-hidden">
             <img
-              src={portraitUrl}
+              src={asset(portraitUrl)}
               alt="Yosi Datura — photographer portrait"
               onError={handleError}
               loading="lazy"
