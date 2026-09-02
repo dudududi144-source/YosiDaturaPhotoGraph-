@@ -1,12 +1,17 @@
 import siteData from '../data/site.json';
+import galleryData from '../data/gallery.json';
 
 export default function Hero() {
+  const cover = galleryData.hero?.cover;
+
   return (
     <section id="home" className="relative min-h-screen flex flex-col justify-center overflow-hidden">
       <div className="absolute inset-0 z-0" aria-hidden="true">
-        <div id="heroBg" className="parallax-bg absolute inset-0 hero-atmosphere"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-darker via-transparent to-darker"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-darker via-transparent to-darker"></div>
+        {cover && (
+          <img src={cover} alt="" className="hero-cover" loading="eager" decoding="async" />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-b from-darker/80 via-darker/30 to-darker"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-darker/70 via-transparent to-darker/70"></div>
       </div>
 
       <div className="relative z-10 px-6 md:px-12 lg:px-20 pt-32">
@@ -17,7 +22,7 @@ export default function Hero() {
           <span className="hero-anim block">YOSI</span>
           <span className="hero-anim block text-stroke glitch" data-text="DATURA">DATURA</span>
         </h1>
-        <p className="hero-anim font-mono text-sm md:text-base text-white/60 max-w-xl leading-relaxed">
+        <p className="hero-anim font-mono text-sm md:text-base text-white/70 max-w-xl leading-relaxed">
           Fashion &amp; Conceptual Photography. Exploring the thin line between the aesthetic
           and the provocative. The harmony of light, form, and raw emotion.
         </p>
