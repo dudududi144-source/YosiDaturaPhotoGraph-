@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import modelsData from '../data/models.json';
 import SectionHeader from './ui/SectionHeader.jsx';
 import { generatePlaceholder } from '../utils/imageFallback.js';
+import { asset } from '../utils/assets.js';
 
 export default function Casting() {
   const [filter, setFilter] = useState('ALL');
