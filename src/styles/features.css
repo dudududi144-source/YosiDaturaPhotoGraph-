@@ -1,0 +1,120 @@
+/* ═══ QUICKCONNECT HUB — channel grid ═══ */
+.quickconnect { background: var(--darker); }
+
+.qc-channel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.05s,
+              border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.05s,
+              background 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.05s,
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.05s;
+}
+.qc-channel:hover, .qc-channel:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.04);
+  box-shadow: 0 16px 48px rgba(212, 175, 55, 0.1);
+}
+.qc-icon { font-size: 1.5rem; color: var(--gold); line-height: 1; }
+.qc-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.2em; font-weight: 600; }
+.qc-sub { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: rgba(255, 255, 255, 0.4); letter-spacing: 0.05em; }
+
+.qc-whatsapp:hover { border-color: #25D366; box-shadow: 0 16px 48px rgba(37, 211, 102, 0.12); }
+.qc-whatsapp:hover .qc-icon { color: #25D366; }
+.qc-phone:hover { border-color: var(--cyan); box-shadow: 0 16px 48px rgba(0, 255, 255, 0.1); }
+.qc-phone:hover .qc-icon { color: var(--cyan); }
+.qc-email:hover { border-color: var(--gold); }
+.qc-instagram:hover { border-color: #E1306C; box-shadow: 0 16px 48px rgba(225, 48, 108, 0.12); }
+.qc-instagram:hover .qc-icon { color: #E1306C; }
+
+/* ═══ FAB — Floating Action Button ═══ */
+.fab-wrapper {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.fab-wrapper.fab-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.fab-trigger {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  background: var(--darker);
+  color: var(--gold);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 4px rgba(212, 175, 55, 0.12);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              color 0.35s, box-shadow 0.35s;
+}
+.fab-trigger:hover { transform: scale(1.08); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 0 6px rgba(212, 175, 55, 0.2); }
+.fab-trigger.fab-open { background: var(--gold); color: #000; transform: rotate(90deg); }
+.fab-icon { display: block; line-height: 1; }
+
+.fab-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(5, 5, 5, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  animation: fabPanelIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes fabPanelIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.fab-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: color 0.25s, border-color 0.25s, background 0.25s;
+  white-space: nowrap;
+}
+.fab-option:hover, .fab-option:focus-visible {
+  color: var(--gold);
+  border-color: rgba(212, 175, 55, 0.3);
+  background: rgba(212, 175, 55, 0.06);
+}
+.fab-option-icon { color: var(--gold); font-size: 0.9rem; }
+
+@media (max-width: 640px) {
+  .fab-wrapper { bottom: 1rem; right: 1rem; }
+  .fab-trigger { width: 50px; height: 50px; }
+}
