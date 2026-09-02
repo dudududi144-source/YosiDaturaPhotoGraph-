@@ -1,8 +1,11 @@
 import siteData from '../data/site.json';
+import galleryData from '../data/gallery.json';
 import { generatePlaceholder } from '../utils/imageFallback.js';
 
 export default function Artist() {
   const { stats } = siteData;
+  const portraitUrl = galleryData.artist?.portrait;
+
   const handleError = (e) => {
     e.currentTarget.src = generatePlaceholder('YOSI DATURA', '#D4AF37');
     e.currentTarget.onerror = null;
@@ -17,7 +20,7 @@ export default function Artist() {
         <figure className="reveal">
           <div className="aspect-[3/4] overflow-hidden">
             <img
-              src="/assets/artist.jpg"
+              src={portraitUrl}
               alt="Yosi Datura — photographer portrait"
               onError={handleError}
               loading="lazy"
