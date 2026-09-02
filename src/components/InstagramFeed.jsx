@@ -1,4 +1,5 @@
 import siteData from '../data/site.json';
+import { asset } from '../utils/assets.js';
 
 export default function InstagramFeed() {
   const ig = siteData.instagram;
