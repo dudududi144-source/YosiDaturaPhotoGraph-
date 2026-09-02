@@ -2,6 +2,7 @@ import { useState } from 'react';
 import siteData from '../data/site.json';
 import galleryData from '../data/gallery.json';
 import { handleBriefSubmit } from '../utils/formHandler.js';
+import { asset } from '../utils/assets.js';
 
 const PROJECT_TYPES = ['Campaign', 'Lookbook', 'Editorial', 'Portrait', 'Conceptual'];
 const LOCATIONS = ['Studio', 'Outdoor', 'Beach', 'Desert'];
