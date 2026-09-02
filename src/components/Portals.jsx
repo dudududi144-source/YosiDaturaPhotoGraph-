@@ -1,4 +1,5 @@
 import galleryData from '../data/gallery.json';
+import { asset } from '../utils/assets.js';
 
 export default function Portals() {
   return (
@@ -11,11 +12,10 @@ export default function Portals() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         {galleryData.portals.map((portal) => (
-          <a key={portal.id} href={`#${portal.id}`}
-            className="portal group block aspect-[4/3] bg-dark"
+          <a key={portal.id} href={`#${portal.id}`} className="portal group block aspect-[4/3] bg-dark"
             aria-label={`Enter ${portal.title} — ${portal.desc}`}>
             {portal.img && (
-              <img src={portal.img} alt="" loading="lazy" decoding="async"
+              <img src={asset(portal.img)} alt="" loading="lazy" decoding="async"
                 className="portal-img absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-80" />
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
@@ -24,9 +24,7 @@ export default function Portals() {
               <h3 className="font-display text-3xl md:text-5xl font-bold mb-2">{portal.title}</h3>
               <p className="font-mono text-xs text-white/50">{portal.desc}</p>
             </div>
-            <div className="absolute top-6 right-6 font-mono text-xs text-white/30 group-hover:text-gold transition-colors duration-300 z-[2]" aria-hidden="true">
-              →
-            </div>
+            <div className="absolute top-6 right-6 font-mono text-xs text-white/30 group-hover:text-gold transition-colors duration-300 z-[2]" aria-hidden="true">→</div>
           </a>
         ))}
       </div>
