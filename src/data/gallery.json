@@ -1,0 +1,324 @@
+{
+  "portals": [
+    {
+      "id": "runway",
+      "num": "01",
+      "title": "RUNWAY",
+      "desc": "Fashion Portfolio — The Spatial Collection",
+      "accent": "#D4AF37"
+    },
+    {
+      "id": "darkroom",
+      "num": "02",
+      "title": "DARKROOM",
+      "desc": "Conceptual & Behind The Scenes",
+      "accent": "#DC143C"
+    },
+    {
+      "id": "casting",
+      "num": "03",
+      "title": "CASTING",
+      "desc": "Model Database & Talent Directory",
+      "accent": "#00FFFF"
+    },
+    {
+      "id": "studio",
+      "num": "04",
+      "title": "STUDIO",
+      "desc": "Contact & Project Brief Builder",
+      "accent": "#D4AF37"
+    }
+  ],
+  "wings": [
+    {
+      "id": "runway",
+      "num": "02",
+      "name": "RUNWAY WING",
+      "heading": [
+        "FASHION",
+        "PORTFOLIO"
+      ],
+      "headingAccent": "text-gold",
+      "intro": "A curated collection of fashion editorials. Each series is a world — a mood, a color palette, a narrative. Scroll through the spatial collection.",
+      "bg": ""
+    },
+    {
+      "id": "darkroom",
+      "num": "03",
+      "name": "DARKROOM WING",
+      "heading": [
+        "CONCEPTUAL",
+        "& BTS"
+      ],
+      "headingAccent": "text-crimson",
+      "numberColor": "#DC143C",
+      "intro": "Where the magic happens. Behind the scenes, conceptual explorations, and the raw process of visual storytelling.",
+      "bg": "bg-dark",
+      "showGradeLab": true
+    }
+  ],
+  "series": [
+    {
+      "id": "azure-vibrance",
+      "wing": "runway",
+      "num": "01",
+      "title": "AZURE",
+      "titleAccent": "VIBRANCE",
+      "accent": "#00BFFF",
+      "accentClass": "text-azure",
+      "desc": "A sun-drenched tribute to summer and high-energy swimwear. Utilizing natural coastal light to enhance bold color palettes and the fluid, carefree motion of the elements.",
+      "layout": "triptych-staggered",
+      "frames": [
+        {
+          "id": "FR-011",
+          "alt": "Coastal Energy",
+          "caption": "Azure Vibrance — Coastal Energy",
+          "img": "/assets/azure-1.jpg",
+          "aspect": "aspect-[3/4]"
+        },
+        {
+          "id": "FR-012",
+          "alt": "Sunlit Reverie",
+          "caption": "Azure Vibrance — Sunlit Reverie",
+          "img": "/assets/azure-2.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-16"
+        },
+        {
+          "id": "FR-013",
+          "alt": "Ocean Breeze",
+          "caption": "Azure Vibrance — Ocean Breeze",
+          "img": "/assets/azure-3.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-32"
+        }
+      ]
+    },
+    {
+      "id": "eternal-desert",
+      "wing": "runway",
+      "num": "02",
+      "title": "ETERNAL",
+      "titleAccent": "DESERT",
+      "accent": "#E8751A",
+      "accentClass": "text-ember",
+      "desc": "A timeless journey across sun-drenched dunes. Bold colors capture the raw, windswept beauty of the human spirit.",
+      "layout": "hero-side-duo",
+      "frames": [
+        {
+          "id": "FR-021",
+          "alt": "Windswept",
+          "caption": "Eternal Desert — Windswept",
+          "img": "/assets/desert-1.jpg",
+          "aspect": "aspect-[3/4] md:aspect-auto"
+        },
+        {
+          "id": "FR-022",
+          "alt": "Golden Hour",
+          "caption": "Eternal Desert — Golden Hour",
+          "img": "/assets/desert-2.jpg",
+          "aspect": "aspect-[4/3]"
+        },
+        {
+          "id": "FR-023",
+          "alt": "Desert Queen",
+          "caption": "Eternal Desert — Desert Queen",
+          "img": "/assets/desert-3.jpg",
+          "aspect": "aspect-[4/3]"
+        }
+      ]
+    },
+    {
+      "id": "gilded-touch",
+      "wing": "runway",
+      "num": "03",
+      "title": "GILDED",
+      "titleAccent": "TOUCH",
+      "accent": "#D4AF37",
+      "accentClass": "text-gold",
+      "desc": "An exploration of texture and light, merging the human form with metallic elements to create a timeless, sculptural aesthetic.",
+      "layout": "diptych-staggered",
+      "frames": [
+        {
+          "id": "FR-031",
+          "alt": "Golden Sculpture",
+          "caption": "Gilded Touch — Golden Sculpture",
+          "img": "/assets/gilded-1.jpg",
+          "aspect": "aspect-[3/4]"
+        },
+        {
+          "id": "FR-032",
+          "alt": "The Artist",
+          "caption": "Gilded Touch — The Artist",
+          "img": "/assets/gilded-2.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-20"
+        }
+      ]
+    },
+    {
+      "id": "eternity",
+      "wing": "runway",
+      "num": "04",
+      "title": "ETER",
+      "titleAccent": "NI",
+      "titleTail": "TY",
+      "accent": "#D4AF37",
+      "accentClass": "text-gold",
+      "desc": "The final chapter, a breath of timeless beauty. Amidst the whispering sands and the endless horizon — an embodiment of grace, purity, and enduring strength.",
+      "layout": "full-bleed",
+      "frames": [
+        {
+          "id": "FR-041",
+          "alt": "Eternal Grace",
+          "caption": "Eternity — Eternal Grace",
+          "img": "/assets/eternity-1.jpg",
+          "aspect": "aspect-[16/9] md:aspect-[21/9]"
+        }
+      ]
+    },
+    {
+      "id": "silent-revolution",
+      "wing": "darkroom",
+      "num": "05",
+      "title": "SILENT",
+      "titleAccent": "REVOLUTION",
+      "accent": "#DC143C",
+      "accentClass": "text-crimson",
+      "desc": "A glimpse into the future unknown. This black and white series explores themes of rebellion, defiance, and resilience in a desolate landscape.",
+      "layout": "triptych-staggered",
+      "frames": [
+        {
+          "id": "FR-051",
+          "alt": "The Rebel",
+          "caption": "Silent Revolution — The Rebel",
+          "img": "/assets/silent-1.jpg",
+          "aspect": "aspect-[3/4]"
+        },
+        {
+          "id": "FR-052",
+          "alt": "Defiance",
+          "caption": "Silent Revolution — Defiance",
+          "img": "/assets/silent-2.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-16"
+        },
+        {
+          "id": "FR-053",
+          "alt": "Resilience",
+          "caption": "Silent Revolution — Resilience",
+          "img": "/assets/silent-3.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-32"
+        }
+      ]
+    },
+    {
+      "id": "crimson-shadows",
+      "wing": "darkroom",
+      "num": "06",
+      "title": "CRIMSON",
+      "titleAccent": "SHADOWS",
+      "accent": "#DC143C",
+      "accentClass": "text-crimson",
+      "desc": "Capturing raw intensity through high-contrast lighting and bold color palettes. A visual narrative of power and cinematic drama.",
+      "layout": "duo-side-hero",
+      "frames": [
+        {
+          "id": "FR-061",
+          "alt": "Raw Intensity",
+          "caption": "Crimson Shadows — Raw Intensity",
+          "img": "/assets/crimson-1.jpg",
+          "aspect": "aspect-[4/3]"
+        },
+        {
+          "id": "FR-063",
+          "alt": "Power",
+          "caption": "Crimson Shadows — Power",
+          "img": "/assets/crimson-2.jpg",
+          "aspect": "aspect-[4/3]"
+        },
+        {
+          "id": "FR-062",
+          "alt": "Cinematic Drama",
+          "caption": "Crimson Shadows — Cinematic Drama",
+          "img": "/assets/crimson-3.jpg",
+          "aspect": "aspect-[3/4] md:aspect-auto"
+        }
+      ]
+    },
+    {
+      "id": "urban-nights",
+      "wing": "darkroom",
+      "num": "07",
+      "title": "URBAN",
+      "titleAccent": "NIGHTS",
+      "accent": "#888888",
+      "accentClass": "text-white/60",
+      "desc": "A monochromatic journey through concrete landscapes, exploring isolation and raw glow under the city lights.",
+      "layout": "triptych-staggered-inv",
+      "frames": [
+        {
+          "id": "FR-071",
+          "alt": "Concrete",
+          "caption": "Urban Nights — Concrete",
+          "img": "/assets/urban-1.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-32"
+        },
+        {
+          "id": "FR-072",
+          "alt": "Isolation",
+          "caption": "Urban Nights — Isolation",
+          "img": "/assets/urban-2.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-16"
+        },
+        {
+          "id": "FR-073",
+          "alt": "Raw Glow",
+          "caption": "Urban Nights — Raw Glow",
+          "img": "/assets/urban-3.jpg",
+          "aspect": "aspect-[3/4]"
+        }
+      ]
+    },
+    {
+      "id": "wild-spirit",
+      "wing": "darkroom",
+      "num": "08",
+      "title": "WILD",
+      "titleAccent": "SPIRIT",
+      "accent": "#4CAF50",
+      "accentClass": "text-leaf",
+      "desc": "A tribute to the raw and the organic. This series explores the deep connection between fashion and nature.",
+      "layout": "diptych-staggered",
+      "frames": [
+        {
+          "id": "FR-081",
+          "alt": "Olive Grove",
+          "caption": "Wild Spirit — Olive Grove",
+          "img": "/assets/wild-1.jpg",
+          "aspect": "aspect-[3/4]"
+        },
+        {
+          "id": "FR-082",
+          "alt": "Untamed",
+          "caption": "Wild Spirit — Untamed",
+          "img": "/assets/wild-2.jpg",
+          "aspect": "aspect-[3/4]",
+          "offset": "md:mt-20"
+        }
+      ]
+    }
+  ],
+  "gradeLab": {
+    "title": [
+      "RAW",
+      "MASTER"
+    ],
+    "desc": "Drag the handle. The same frame, before and after the color grade — the darkroom's final signature.",
+    "before": "/assets/grade-before.jpg",
+    "after": "/assets/grade-after.jpg"
+  }
+}
