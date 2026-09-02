@@ -7,16 +7,18 @@ export default function Casting() {
   const [filter, setFilter] = useState('ALL');
   const [query, setQuery] = useState('');
 
+  // Hardened filter pipeline — tolerates missing/undefined fields on any model.
+  // Adding a model with incomplete data will never crash the directory.
   const visible = useMemo(() => {
     const f = filter.toLowerCase();
     const q = query.trim().toLowerCase();
     return modelsData.models.filter((m) => {
-      const matchFilter = f === 'all' || m.category.includes(f);
+      const matchFilter = f === 'all' || (m.category || []).includes(f);
       const matchQuery =
         !q ||
-        m.name.toLowerCase().includes(q) ||
-        m.featured.toLowerCase().includes(q) ||
-        m.tags.some((t) => t.toLowerCase().includes(q));
+        (m.name || '').toLowerCase().includes(q) ||
+        (m.featured || '').toLowerCase().includes(q) ||
+        (m.tags || []).some((t) => (t || '').toLowerCase().includes(q));
       return matchFilter && matchQuery;
     });
   }, [filter, query]);
@@ -87,16 +89,16 @@ export default function Casting() {
               <div className="font-mono text-[10px] text-gold mb-2">{model.id}</div>
               <h3 className="font-display text-xl font-bold mb-3">{model.name}</h3>
               <div className="font-mono text-xs text-white/40 mb-4 space-y-1">
-                <div>Height: {model.height}</div>
-                <div>Hair: {model.hair}</div>
-                <div>Eyes: {model.eyes}</div>
+                <div>Height: {model.height || '—'}</div>
+                <div>Hair: {model.hair || '—'}</div>
+                <div>Eyes: {model.eyes || '—'}</div>
               </div>
               <div className="flex flex-wrap gap-1 mb-4">
-                {model.tags.map((tag) => (
+                {(model.tags || []).map((tag) => (
                   <span key={tag} className="series-tag">{tag}</span>
                 ))}
               </div>
-              <div className="font-mono text-[10px] text-white/30">Featured: {model.featured}</div>
+              <div className="font-mono text-[10px] text-white/30">Featured: {model.featured || '—'}</div>
             </article>
           ))}
         </div>
