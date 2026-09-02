@@ -164,3 +164,14 @@
   white-space: nowrap;
 }
 .follow-btn:hover, .follow-btn:focus-visible { transform: translateY(-3px); border-color: #dc2743; box-shadow: 0 16px 48px rgba(220,39,67,0.25); }
+
+/* ═══ SHARPNESS DISCIPLINE — never upscale beyond native pixels ═══ */
+.gallery-item img, .ig-tile img, .model-card img, .qc-channel img {
+  filter: contrast(1.04) saturate(1.05);
+  image-rendering: -webkit-optimize-contrast;
+}
+.gallery-item { max-width: 560px; }
+@media (min-width: 768px) { .gallery-item { width: 100%; } }
+figure.gallery-item.md\:col-span-3, figure.gallery-item.md\:col-span-2 { max-width: none; }
+.ig-tile { max-width: 420px; margin-inline: auto; width: 100%; }
+.model-card .aspect-\[3\/4\] img { object-position: center 20%; }
