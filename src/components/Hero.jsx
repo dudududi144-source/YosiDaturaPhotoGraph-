@@ -27,6 +27,13 @@ export default function Hero() {
           Fashion &amp; Conceptual Photography — exploring the thin line between the aesthetic
           and the provocative. The harmony of light, form, and raw emotion.
         </p>
+        <div className="hero-anim flex flex-wrap gap-4 mt-8 md:mt-10">
+          <a href="#studio" className="follow-btn" style={{ borderColor: 'rgba(212,175,55,.7)' }}>BOOK A SHOOT →</a>
+          <a href={siteData.contact.instagramUrl} target="_blank" rel="noopener noreferrer"
+             className="follow-btn" style={{ borderColor: 'rgba(255,255,255,.25)', background: 'transparent' }}>
+            @{siteData.contact.instagram}
+          </a>
+        </div>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10" aria-hidden="true">
