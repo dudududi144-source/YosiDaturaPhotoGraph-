@@ -1,6 +1,6 @@
 {
   "hero": {
-    "cover": "y/eternity-1.jpg"
+    "cover": "y/azure-1.jpg"
   },
   "artist": {
     "portrait": "y/studio-1.jpg"
@@ -116,7 +116,7 @@
       "accent": "#E8751A",
       "accentClass": "text-ember",
       "desc": "A timeless journey across sun-drenched dunes. Bold colors capture the raw, windswept beauty of the human spirit. · credits @yosidatura",
-      "layout": "hero-side-duo",
+      "layout": "triptych-staggered",
       "frames": [
         {
           "id": "FR-021",
@@ -187,7 +187,7 @@
       "accent": "#D4AF37",
       "accentClass": "text-gold",
       "desc": "The final chapter, a breath of timeless beauty. Amidst the whispering sands and the endless horizon — an embodiment of grace, purity, and enduring strength. · credits @yosidatura",
-      "layout": "full-bleed",
+      "layout": "diptych-staggered",
       "frames": [
         {
           "id": "FR-041",
