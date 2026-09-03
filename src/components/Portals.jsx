@@ -1,5 +1,4 @@
 import galleryData from '../data/gallery.json';
-import { asset } from '../utils/assets.js';
 
 export default function Portals() {
   return (
@@ -14,17 +13,18 @@ export default function Portals() {
         {galleryData.portals.map((portal) => (
           <a key={portal.id} href={`#${portal.id}`} className="portal group block aspect-[4/3] bg-dark"
             aria-label={`Enter ${portal.title} — ${portal.desc}`}>
-            {portal.img && (
-              <img src={asset(portal.img)} alt="" loading="lazy" decoding="async"
-                className="portal-img absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-80" />
-            )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+            <div className="portal-img absolute inset-0 opacity-60 group-hover:opacity-90"
+              style={{ background: `radial-gradient(ellipse at 28% 18%, ${portal.accent}2e 0%, transparent 62%), radial-gradient(ellipse at 82% 85%, ${portal.accent}22 0%, transparent 55%), #0a0a0a` }}></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+            <div className="absolute top-6 right-6 font-display text-7xl md:text-8xl font-black text-white/5 group-hover:text-white/10 transition-colors duration-500 z-[1]" aria-hidden="true">
+              {portal.num}
+            </div>
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 z-[2]">
-              <div className="font-mono text-[10px] tracking-[0.3em] text-gold mb-2">{portal.num}</div>
+              <div className="font-mono text-[10px] tracking-[0.3em] mb-2" style={{ color: portal.accent }}>{portal.num}</div>
               <h3 className="font-display text-3xl md:text-5xl font-bold mb-2">{portal.title}</h3>
               <p className="font-mono text-xs text-white/50">{portal.desc}</p>
             </div>
-            <div className="absolute top-6 right-6 font-mono text-xs text-white/30 group-hover:text-gold transition-colors duration-300 z-[2]" aria-hidden="true">→</div>
+            <div className="absolute top-6 left-6 font-mono text-xs text-white/30 group-hover:text-gold transition-colors duration-300 z-[2]" aria-hidden="true">→</div>
           </a>
         ))}
       </div>
