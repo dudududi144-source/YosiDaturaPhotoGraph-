@@ -123,7 +123,7 @@
 .hero-cover {
   position: absolute; inset: 0; width: 100%; height: 100%;
   object-fit: cover; object-position: center 20%;
-  opacity: 0.55; will-change: transform;
+  opacity: 0.82; will-change: transform;
   animation: kenBurns 22s cubic-bezier(0.16, 1, 0.3, 1) infinite alternate;
 }
 @keyframes kenBurns {
@@ -165,16 +165,8 @@
 }
 .follow-btn:hover, .follow-btn:focus-visible { transform: translateY(-3px); border-color: #dc2743; box-shadow: 0 16px 48px rgba(220,39,67,0.25); }
 
-/* ═══ SHARPNESS DISCIPLINE — never upscale beyond native pixels ═══ */
-.gallery-item img, .ig-tile img, .model-card img, .qc-channel img {
-  filter: contrast(1.04) saturate(1.05);
-  image-rendering: -webkit-optimize-contrast;
-}
-.gallery-item { max-width: 560px; }
-@media (min-width: 768px) { .gallery-item { width: 100%; } }
-figure.gallery-item.md\:col-span-3, figure.gallery-item.md\:col-span-2 { max-width: none; }
-.ig-tile { max-width: 420px; margin-inline: auto; width: 100%; }
-.model-card .aspect-\[3\/4\] img { object-position: center 20%; }
+/* light perceptual pop only - no layout interference */
+.gallery-item img, .ig-tile img, .model-card img { filter: contrast(1.03) saturate(1.05); }
 
 /* FAB v2 - passionate, unmistakable contact pill */
 .fabv2-wrap { position: fixed; bottom: 1.1rem; right: 1.1rem; left: 1.1rem; z-index: 9000; display: flex; flex-direction: column; align-items: stretch; gap: .7rem; opacity: 0; transform: translateY(24px); pointer-events: none; transition: opacity .5s cubic-bezier(.16,1,.3,1), transform .5s cubic-bezier(.16,1,.3,1); }
