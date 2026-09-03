@@ -61,8 +61,8 @@ export default function Artist() {
               <div className="font-mono text-[10px] tracking-[0.2em] text-white/40 mt-1">SERIES</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-bold text-gold">{stats.visions}</div>
-              <div className="font-mono text-[10px] tracking-[0.2em] text-white/40 mt-1">VISIONS</div>
+              <div className="font-display text-3xl font-bold text-gold">{stats.followers}</div>
+              <div className="font-mono text-[10px] tracking-[0.2em] text-white/40 mt-1">FOLLOWERS</div>
             </div>
           </div>
         </div>
