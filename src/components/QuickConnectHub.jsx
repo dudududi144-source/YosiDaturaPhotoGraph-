@@ -87,12 +87,14 @@ export default function QuickConnectHub() {
                 ))}
               </div>
             </div>
-            <blockquote className="border-l-2 border-gold pl-6">
+            <div className="border-l-2 border-gold pl-6">
               <p className="font-display text-xl md:text-2xl text-white/80 leading-relaxed italic">
-                "I don't just capture images — I capture moments that resonate."
+                "Every frame is a story waiting to be told."
               </p>
-              <cite className="font-mono text-xs text-white/40 mt-3 block not-italic">— YOSI DATURA</cite>
-            </blockquote>
+              <div className="font-mono text-[10px] tracking-[0.2em] text-white/40 mt-3">
+                {siteData.instagram.followers} FOLLOWERS · TEL AVIV · @{siteData.contact.instagram}
+              </div>
+            </div>
           </div>
 
           {/* Compact brief form */}
