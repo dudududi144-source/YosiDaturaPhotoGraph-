@@ -1,0 +1,12 @@
+{
+  "name": "YOSI DATURA - Fashion & Conceptual Photography",
+  "short_name": "YOSI DATURA",
+  "description": "Fashion & conceptual photography portfolio. Tel Aviv.",
+  "start_url": "/YosiDaturaPhotoGraph-/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    { "src": "/YosiDaturaPhotoGraph-/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
