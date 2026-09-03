@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-white/5">
         <div className="font-mono text-[10px] text-white/30">© 2026 YOSI DATURA. ALL RIGHTS RESERVED.</div>
-        <div className="font-mono text-[10px] text-white/30">PRISM ARCHITECTURE v3.0</div>
+        <div className="font-mono text-[10px] text-white/30">TEL AVIV — ISRAEL</div>
       </div>
     </footer>
   );
