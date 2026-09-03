@@ -30,7 +30,7 @@ export default function Loader() {
 
   return (
     <div className={`loader ${done ? 'done' : ''}`} role="status" aria-label="Loading">
-      <div className="font-mono text-xs tracking-[0.35em] text-white/50 mb-6">PRISM // YOSI DATURA</div>
+      <div className="font-mono text-xs tracking-[0.35em] text-white/50 mb-6">YOSI DATURA</div>
       <div className="loader-bar">
         <div className="loader-bar-fill" style={{ width: `${percent}%` }}></div>
       </div>
