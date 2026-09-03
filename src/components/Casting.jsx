@@ -90,9 +90,10 @@ export default function Casting() {
               <div className="font-mono text-[10px] text-gold mb-2">{model.id}</div>
               <h3 className="font-display text-xl font-bold mb-3">{model.name}</h3>
               <div className="font-mono text-xs text-white/40 mb-4 space-y-1">
-                <div>Height: {model.height || '—'}</div>
-                <div>Hair: {model.hair || '—'}</div>
-                <div>Eyes: {model.eyes || '—'}</div>
+                <div className="text-white/60">Featured: {model.featured}</div>
+                {(model.team || []).map((t) => (
+                  <div key={t}>{t}</div>
+                ))}
               </div>
               <div className="flex flex-wrap gap-1 mb-4">
                 {(model.tags || []).map((tag) => (
