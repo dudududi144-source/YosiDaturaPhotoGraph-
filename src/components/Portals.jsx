@@ -1,12 +1,7 @@
 import galleryData from '../data/gallery.json';
 import { asset } from '../utils/assets.js';
 
-const PORTAL_IMG = {
-  runway: 'y/desert-1.jpg',
-  darkroom: 'y/silent-1.jpg',
-  casting: 'y/azure-2.jpg',
-  studio: 'y/studio-1.jpg',
-};
+const PORTAL_IMG = { runway: 'y/desert-1.jpg', darkroom: 'y/silent-1.jpg', casting: 'y/azure-2.jpg', studio: 'y/studio-1.jpg' };
 
 export default function Portals() {
   return (
@@ -21,12 +16,10 @@ export default function Portals() {
         {galleryData.portals.map((portal) => (
           <a key={portal.id} href={`#${portal.id}`} className="portal group block aspect-[4/3] bg-dark"
             aria-label={`Enter ${portal.title} — ${portal.desc}`}>
-            <img src={asset(PORTAL_IMG[portal.id] || portal.img)} alt="" loading="lazy" decoding="async"
+            <img src={asset(PORTAL_IMG[portal.id])} alt="" loading="lazy" decoding="async"
               className="portal-img absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-60 group-hover:opacity-90" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-black/10"></div>
-            <div className="absolute top-6 right-6 font-display text-7xl md:text-8xl font-black text-white/10 group-hover:text-white/20 transition-colors duration-500 z-[1]" aria-hidden="true">
-              {portal.num}
-            </div>
+            <div className="absolute top-6 right-6 font-display text-7xl md:text-8xl font-black text-white/10 group-hover:text-white/20 transition-colors duration-500 z-[1]" aria-hidden="true">{portal.num}</div>
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 z-[2]">
               <div className="font-mono text-[10px] tracking-[0.3em] mb-2" style={{ color: portal.accent }}>{portal.num}</div>
               <h3 className="font-display text-3xl md:text-5xl font-bold mb-2">{portal.title}</h3>
