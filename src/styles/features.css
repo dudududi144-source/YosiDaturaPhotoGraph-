@@ -188,3 +188,11 @@
 .fabv2-wa:hover { border-color: #25D366; background: rgba(37,211,102,.08); color: #7ce9a9; }
 .fabv2-ico { color: #D4AF37; font-size: .95rem; }
 @media (prefers-reduced-motion: reduce) { .fabv2-spark, .fabv2-pill::before, .fabv2-panel { animation: none; } }
+
+/* Presentation polish - make source frames read as intentional prints */
+.gallery-item { border: 1px solid rgba(255,255,255,.07); background: #0a0a0a; }
+.gallery-item img { object-position: center 30%; }
+.gallery-item[style*="21/9"] img, .gallery-item.md\:col-span-3 img { object-position: center 40%; }
+.ig-tile img { object-position: center 25%; }
+.model-card img { object-position: center 22%; }
+.portal img { filter: saturate(1.05) contrast(1.05); }
