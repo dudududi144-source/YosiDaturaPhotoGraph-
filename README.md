@@ -61,3 +61,12 @@ Push to main, Actions builds, Pages deploys.
 Repo Settings, Pages, Source: GitHub Actions.
 
 (c) 2025 Yosi Datura. All rights reserved.
+
+## Bring Your Originals (auto-ingestion)
+
+Drop your real folders into `public/inbox/<series>/` (azure, desert, gilded, eternity,
+silent, crimson, urban, wild, artist, studio, cover) and commit.
+The `Ingest & Optimize Assets` workflow runs sharp: EXIF rotate, width cap 1600,
+progressive JPEG q86, metadata strip - then writes `public/assets/y/<series>-<n>.jpg`,
+clears the inbox and commits back. The site upgrades instantly.
+Full guide: docs/UPLOAD_GUIDE.md
