@@ -56,7 +56,7 @@ export default function InstagramFeed() {
 
         <div className="mt-10 text-center reveal">
           <p className="font-mono text-[10px] tracking-[0.3em] text-white/30">
-            NEW WORK DROPS WEEKLY — BEHIND THE SCENES ON STORIES
+            EVERY POST CARRIES FULL MODEL & TEAM CREDITS
           </p>
         </div>
       </div>
