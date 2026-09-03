@@ -1,0 +1,10 @@
+/* TEAM */
+  Photographer & Art Direction: Yosi Cohen Datura
+  Site: https://dudududi144-source.github.io/YosiDaturaPhotoGraph-/
+  Instagram: @yosidatura
+  Location: Tel Aviv, Israel
+
+/* SITE */
+  Stack: React, Vite, Tailwind CSS, GSAP
+  Deploy: GitHub Actions -> GitHub Pages
+  Images: 100% original photography by Yosi Datura
