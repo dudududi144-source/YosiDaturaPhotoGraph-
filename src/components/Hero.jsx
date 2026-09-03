@@ -9,8 +9,8 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex flex-col justify-center overflow-hidden">
       <div className="absolute inset-0 z-0" aria-hidden="true">
         {cover && <img src={asset(cover)} alt="" className="hero-cover" loading="eager" decoding="async" />}
-        <div className="absolute inset-0 bg-gradient-to-b from-darker/80 via-darker/30 to-darker"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-darker/70 via-transparent to-darker/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-darker/70 via-transparent to-darker"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-darker/50 via-transparent to-darker/50"></div>
       </div>
 
       <div className="relative z-10 px-6 md:px-12 lg:px-20 pt-32">
