@@ -1,0 +1,36 @@
+name: Ingest & Optimize Assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/inbox/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install sharp
+        run: npm i sharp --no-save
+
+      - name: Optimize inbox originals into public/assets/y
+        run: node scripts/ingest.mjs
+
+      - name: Clear inbox after successful ingest
+        run: rm -rf public/inbox/*
+
+      - name: Commit optimized assets back to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "perf: auto-optimized Yosi's originals from inbox"
+          file_pattern: public/assets/y/** public/inbox/**
