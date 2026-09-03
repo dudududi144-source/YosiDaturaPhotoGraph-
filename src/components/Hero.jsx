@@ -24,8 +24,7 @@ export default function Hero() {
         <p className="hero-anim font-mono text-sm md:text-base text-white/70 max-w-xl leading-relaxed">
           <span className="text-white/90 font-display italic text-base md:text-lg">"{siteData.quote}"</span>
           <br />
-          Fashion &amp; Conceptual Photography — exploring the thin line between the aesthetic
-          and the provocative. The harmony of light, form, and raw emotion.
+          Fashion &amp; conceptual photography. Tel Aviv.
         </p>
         <div className="hero-anim flex flex-wrap gap-4 mt-8 md:mt-10">
           <a href="#studio" className="follow-btn" style={{ borderColor: 'rgba(212,175,55,.7)' }}>BOOK A SHOOT →</a>
