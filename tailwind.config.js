@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx,json}'],
   theme: {
     extend: {
       colors: {
-        gold: '#D4AF37', ice: '#00FFFF', crimson: '#DC143C',
+        gold: '#D4AF37', ice: '#00FFFF', cyan: '#00FFFF', crimson: '#DC143C',
         azure: '#00BFFF', ember: '#E8751A', leaf: '#4CAF50',
         dark: '#0a0a0a', darker: '#050505',
       },

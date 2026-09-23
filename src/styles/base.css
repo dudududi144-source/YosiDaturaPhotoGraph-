@@ -48,3 +48,9 @@ img, svg, video { max-width: 100%; height: auto; }
   }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ── containment safeguards: kill text bleed / column overflow ── */
+:where(.grid, .flex) > * { min-width: 0; }
+:where(p, h1, h2, h3, h4, figcaption, li) { overflow-wrap: anywhere; hyphens: auto; }
+:where(a, span, div, time, address) { overflow-wrap: break-word; }
+:where([dir="rtl"]) { hyphens: none; }

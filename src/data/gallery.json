@@ -3,7 +3,7 @@
     "cover": "y/azure-1.jpg"
   },
   "artist": {
-    "portrait": "y/studio-1.jpg"
+    "portrait": "y/artist-1.jpg"
   },
   "studio": {
     "base": "y/studio-1.jpg"
@@ -15,7 +15,7 @@
       "title": "RUNWAY",
       "desc": "Fashion Portfolio — The Spatial Collection",
       "accent": "#D4AF37",
-      "img": "y/desert-2.jpg"
+      "img": "y/desert-3.jpg"
     },
     {
       "id": "darkroom",
@@ -23,7 +23,7 @@
       "title": "DARKROOM",
       "desc": "Conceptual & Behind The Scenes",
       "accent": "#DC143C",
-      "img": "y/silent-2.jpg"
+      "img": "y/silent-3.jpg"
     },
     {
       "id": "casting",
@@ -39,7 +39,7 @@
       "title": "STUDIO",
       "desc": "QuickConnect Hub & Project Brief",
       "accent": "#D4AF37",
-      "img": "y/wild-2.jpg"
+      "img": "y/studio-1.jpg"
     }
   ],
   "wings": [

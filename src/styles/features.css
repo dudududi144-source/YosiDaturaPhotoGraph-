@@ -128,7 +128,7 @@
 }
 @keyframes kenBurns {
   from { transform: scale(1) translateY(0); }
-  to { transform: scale(1.1) translateY(-2%); }
+  to { transform: scale(1.04) translateY(-1%); }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero-cover { animation: none; }
