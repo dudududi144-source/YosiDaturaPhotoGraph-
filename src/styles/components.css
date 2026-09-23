@@ -109,3 +109,11 @@ input[type="search"].form-input { padding: 0.5rem 0; letter-spacing: 0.1em; }
 .scroll-line { width: 1px; height: 60px; background: rgba(255,255,255,0.15); position: relative; overflow: hidden; }
 .scroll-line::after { content: ''; position: absolute; top: -100%; width: 100%; height: 100%; background: var(--gold); animation: scrollDown 2s cubic-bezier(0.16,1,0.3,1) infinite; }
 @keyframes scrollDown { 0%{top:-100%} 100%{top:100%} }
+
+/* ── PRINT GRAIN TREATMENT: unifies soft sources as intentional film prints ── */
+.gallery-item::after, .ig-tile::after, .portal::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none; opacity: .08; z-index: 2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px; mix-blend-mode: overlay;
+}
+.gallery-item img, .ig-tile img, .model-card img { filter: contrast(1.09) saturate(1.05) brightness(1.02); }
