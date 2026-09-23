@@ -1,6 +1,6 @@
 {
   "hero": {
-    "cover": "y/azure-1.jpg"
+    "cover": "y/urban-2.jpg"
   },
   "artist": {
     "portrait": "y/artist-1.jpg"
@@ -194,7 +194,7 @@
           "alt": "Eternal Grace",
           "caption": "Eternity — Eternal Grace",
           "img": "y/eternity-1.jpg",
-          "aspect": "aspect-[16/9] md:aspect-[21/9]"
+          "aspect": "aspect-[4/5] md:max-w-md"
         }
       ]
     },
