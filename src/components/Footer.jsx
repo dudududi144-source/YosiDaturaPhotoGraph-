@@ -13,6 +13,10 @@ export default function Footer() {
           <div className="font-mono text-xs text-white/40 mt-4">
             Visual Architect — Fashion &amp; Conceptual Photography
           </div>
+          <div className="mt-6">
+            <p className="contact-line"><span className="cl-label">Email:</span> <a href={`mailto:${contact.email}`}>{contact.email}</a></p>
+            <p className="contact-line"><span className="cl-label">Instagram:</span> <a href={contact.instagramUrl} target="_blank" rel="noopener noreferrer">@{contact.instagram}</a></p>
+          </div>
         </div>
         <nav aria-label="Footer navigation">
           <div className="font-mono text-[10px] tracking-[0.3em] text-gold mb-4">NAVIGATE</div>

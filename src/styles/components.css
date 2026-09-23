@@ -117,3 +117,22 @@ input[type="search"].form-input { padding: 0.5rem 0; letter-spacing: 0.1em; }
   background-size: 160px 160px; mix-blend-mode: overlay;
 }
 .gallery-item img, .ig-tile img, .model-card img { filter: contrast(1.09) saturate(1.05) brightness(1.02); }
+
+/* ═══ ARROW FIXES — plain CSS, tailwind-independent ═══ */
+/* Arrow: giant cut "Email:/Instagram:" lines → designed display lines that ALWAYS wrap */
+.contact-line { font-family: 'Playfair Display', Georgia, serif; font-weight: 800;
+  font-size: clamp(1.15rem, 3.2vw, 2.4rem); line-height: 1.2; margin: 0 0 .4rem;
+  word-break: break-word; overflow-wrap: anywhere; white-space: normal; }
+.contact-line a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(212,175,55,.35); }
+.contact-line .cl-label { color: var(--gold); }
+/* Arrow: cut caption/desc single lines → always wrap inside their column */
+.series-desc { display: block; max-width: 28rem; white-space: normal; overflow-wrap: anywhere; }
+@media (min-width: 768px) { .series-desc { margin-left: auto; text-align: right; } }
+figcaption, .frame-cap { white-space: normal !important; overflow-wrap: anywhere; max-width: 100%; }
+/* Arrow: black-bar letterboxing → force true cover crop on every frame, everywhere */
+.gallery-item img, .portal img, .ig-tile img, .model-card img, .hero-cover, figure img {
+  object-fit: cover !important; object-position: center 30%; width: 100%; height: 100%; }
+.lightbox img { object-fit: contain !important; }
+/* Arrow: stray cream bar at section top → marquee becomes a quiet, intentional dark band */
+.marquee { background: var(--darker); }
+.marquee .font-display { font-size: clamp(1.5rem, 4vw, 3.2rem) !important; }

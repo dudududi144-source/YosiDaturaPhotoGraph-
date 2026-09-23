@@ -15,7 +15,7 @@ export default function SeriesBlock({ series, isLast = false }) {
             {series.titleTail || ''}
           </h3>
         </div>
-        <p className="font-mono text-xs text-white/40 max-w-md md:text-right leading-relaxed reveal">
+        <p className="series-desc font-mono text-xs text-white/40 leading-relaxed reveal">
           {series.desc}
         </p>
       </div>
